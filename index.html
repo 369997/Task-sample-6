@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Значения метеорологических явлений</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="container__text">
+          <h1 class="container__title">
+            Критические значения параметров метеорологических явлений
+          </h1>
+          <p class="container__info">
+            Сами по себе атмосферные осадки и изменения температур не несут
+            опасности, значение имеет то, насколько они могут усилиться. Когда
+            мелкий дождь становится затяжным или превращается в сильный дождь
+            (ливень), возникает опасность подтопления. Усиление, поначалу
+            легкого ветерка до шквалистого ветра повышает вероятность обрыва
+            проводов. То же относится и к другим метеорологическим явлениям. С
+            помощью переключателя «усильте» то или иное явление природы и
+            посмотрите, при каких критических параметрах оно становятся опасным.
+            <br /><span class="container__note"
+              >*Сдвиньте переключатель под иконкой, чтобы увидеть критические
+              параметры</span
+            >
+          </p>
+        </div>
+
+        <div class="container__meanings">
+          <div class="container__item">
+            <div class="title">
+              <h4 class="title__h31">Сильный ветер (шквалистый)</h4>
+              <h4 class="title__h31 title__h31_off">Ветер</h4>
+            </div>
+            <div class="picture">
+              <img src="/img/1_on.png" alt="" class="picture__weather1" />
+              <img
+                src="/img/1_off.png"
+                alt=""
+                class="picture__weather1"
+                style="display: none"
+              />
+            </div>
+            <div class="text">
+              <p class="text__description1">
+                Скорость порывов от 25м/c и более.
+              </p>
+              <p class="text__description1 text__description1_off">
+                Скорость порывов от 25м/c и более.
+              </p>
+            </div>
+            <div class="checkbox-container yellow">
+              <input type="checkbox" checked id="toggle1" class="input" />
+              <label for="toggle1" class="input"></label>
+              <div class="active-circle"></div>
+            </div>
+          </div>
+
+          <div class="container__item">
+            <div class="title">
+              <h4 class="title__h32">Сильный дождь (Ливень)</h4>
+              <h4 class="title__h32 title__h32_off">Дождь</h4>
+            </div>
+            <div class="picture">
+              <img src="/img/2_on.png" alt="" class="picture__weather2" />
+              <img
+                src="/img/2_off.png"
+                alt=""
+                class="picture__weather2"
+                style="display: none"
+              />
+            </div>
+            <div class="text">
+              <p class="text__description2">
+                Кол-во осадков 100 мм и более, в период менее чем за 12 часов.
+              </p>
+              <p class="text__description2 text__description2_off">
+                Кол-во осадков 100 мм и более, в период менее чем за 12 часов.
+              </p>
+            </div>
+            <div class="checkbox-container yellow">
+              <input type="checkbox" checked id="toggle2" class="input" />
+              <label for="toggle2" class="input"></label>
+              <div class="active-circle"></div>
+            </div>
+          </div>
+
+          <div class="container__item">
+            <div class="title">
+              <h4 class="title__h33">Сильный снег</h4>
+              <h4 class="title__h33 title__h33_off">Снег</h4>
+            </div>
+            <div class="picture">
+              <img src="/img/3_on.png" alt="" class="picture__weather3" />
+              <img
+                src="/img/3_off.png"
+                alt=""
+                class="picture__weather3"
+                style="display: none"
+              />
+            </div>
+            <div class="text">
+              <p class="text__description3">
+                Кол-во осадков 20 мм и более, в период менее чем за 12 часов.
+              </p>
+              <p class="text__description3 text__description3_off">
+                Кол-во осадков 20 мм и более, в период менее чем за 12 часов.
+              </p>
+            </div>
+            <div class="checkbox-container yellow">
+              <input type="checkbox" checked id="toggle3" class="input" />
+              <label for="toggle3" class="input"></label>
+              <div class="active-circle"></div>
+            </div>
+          </div>
+
+          <div class="container__item">
+            <div class="title">
+              <h4 class="title__h34">Сильная Метель</h4>
+              <h4 class="title__h34 title__h34_off">Метель</h4>
+            </div>
+            <div class="picture">
+              <img src="/img/4_on.png" alt="" class="picture__weather4" />
+              <img
+                src="/img/4_off.png"
+                alt=""
+                class="picture__weather4"
+                style="display: none"
+              />
+            </div>
+            <div class="text">
+              <p class="text__description4">
+                При ветре 20 м/c в течение суток с выпадением снега.
+              </p>
+              <p class="text__description4 text__description4_off">
+                При ветре 20 м/c в течение суток с выпадением снега.
+              </p>
+            </div>
+            <div class="checkbox-container yellow">
+              <input type="checkbox" checked id="toggle4" class="input" />
+              <label for="toggle4" class="input"></label>
+              <div class="active-circle"></div>
+            </div>
+          </div>
+
+          <div class="container__item">
+            <div class="title">
+              <h4 class="title__h35">Крупный Град</h4>
+              <h4 class="title__h35 title__h35_off">Град</h4>
+            </div>
+            <div class="picture">
+              <img src="/img/5_on.png" alt="" class="picture__weather5" />
+              <img
+                src="/img/5_off.png"
+                alt=""
+                class="picture__weather5"
+                style="display: none"
+              />
+            </div>
+            <div class="text">
+              <p class="text__description5">
+                Диаметр градин 20 мм и более.
+              </p>
+              <p class="text__description5 text__description5_off">
+                Диаметр градин 20 мм и более.
+              </p>
+            </div>
+            <div class="checkbox-container yellow">
+              <input type="checkbox" checked id="toggle5" class="input" />
+              <label for="toggle5" class="input"></label>
+              <div class="active-circle"></div>
+            </div>
+          </div>
+
+          <div class="container__item">
+            <div class="title">
+              <h4 class="title__h36">Сильный Гололед</h4>
+              <h4 class="title__h36 title__h36_off">Гололед</h4>
+            </div>
+            <div class="picture">
+              <img src="/img/6_on.png" alt="" class="picture__weather6" />
+              <img
+                src="/img/6_off.png"
+                alt=""
+                class="picture__weather6"
+                style="display: none"
+              />
+            </div>
+            <div class="text">
+              <p class="text__description6">
+                Диаметр отложений на проводах 20 мм и более.
+              </p>
+              <p class="text__description6 text__description6_off">
+                Диаметр отложений на проводах 20 мм и более.
+              </p>
+            </div>
+            <div class="checkbox-container yellow">
+              <input type="checkbox" checked id="toggle6" class="input" />
+              <label for="toggle6" class="input"></label>
+              <div class="active-circle"></div>
+            </div>
+          </div>
+
+          <div class="container__item">
+            <div class="title">
+              <h4 class="title__h37">Сильный Мороз</h4>
+              <h4 class="title__h37 title__h37_off">Мороз</h4>
+            </div>
+            <div class="picture">
+              <img src="/img/7_on.png" alt="" class="picture__weather7" />
+              <img
+                src="/img/7_off.png"
+                alt=""
+                class="picture__weather7"
+                style="display: none"
+              />
+            </div>
+            <div class="text">
+              <p class="text__description7">
+                Температура воздуха у поверхности земли - 30°C и ниже для
+                Европейской части РФ.
+              </p>
+              <p class="text__description7 text__description7_off">
+                Температура воздуха у поверхности земли - 30°C и ниже для
+                Европейской части РФ.
+              </p>
+            </div>
+            <div class="checkbox-container yellow">
+              <input type="checkbox" checked id="toggle7" class="input" />
+              <label for="toggle7" class="input"></label>
+              <div class="active-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="/main.js"></script>
+</html>
